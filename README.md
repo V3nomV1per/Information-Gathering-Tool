@@ -1,4 +1,4 @@
-### This is an information gathering tool coded using Python.
+# This is an information gathering tool coded using Python.
 
 ## Pre-requisites: **python** must be installed
 
