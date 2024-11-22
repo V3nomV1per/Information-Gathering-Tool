@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 req = requests.get("https://" + sys.argv[1])
-print("\n" + str(req.headers))
+# print("\n" + str(req.headers))
 
 gethostby_ = socket.gethostbyname(sys.argv[1])
 print("\nThe IP adress of " + sys.argv[1] + " is: " + gethostby_ + "\n")
